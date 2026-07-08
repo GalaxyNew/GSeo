@@ -6,7 +6,7 @@ const pool = new pg.Pool({
   port: 5432,
   database: 'seo_db',
   user: 'seo_user',
-  password: process.env.DB_PASSWORD || 'changeme_in_production',
+  password: 'changeme_in_production',
 })
 
 // GitHub API cache
